@@ -2,8 +2,7 @@ import currency from 'currency.js';
 
 import { Currency } from '../enums/currency';
 import { ExchangeRates } from '../types/currency';
-
-export const ZERO_RESULT = '';
+import { ZERO_RESULT } from '../utils/constants';
 
 export const isZero = (value: string | number): boolean => !value || value === '0' || value === '0.00';
 
