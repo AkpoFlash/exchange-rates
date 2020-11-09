@@ -1,0 +1,66 @@
+.exchange-field {
+	width: 100%;
+	height: 100px;
+	background-color: #6796ff;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	padding: 0 1rem;
+}
+
+.exchange-field--second {
+	background-color: #5065b7;
+}
+
+.exchange-field__list {
+	color: #aaa;
+	font-size: 2rem;
+	list-style: square;
+	display: flex;
+	width: 5rem;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+}
+
+.exchange-field__list .list__item {
+	width: 2rem;
+	margin-left: 2rem;
+}
+
+.exchange-field__list .list__item--selected {
+	color: #fff;
+}
+
+.exchange-field__description {
+	width: 40%;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+}
+
+.exchange-field__label {
+	display: inline-block;
+	font-size: 4rem;
+}
+
+.exchange-field__current_balance {
+	margin-left: 1rem;
+}
+
+.exchange-field__current_balance > span {
+	margin-left: 1rem;
+	white-space: nowrap;
+	color: #ccc;
+}
+
+.exchange-field__input {
+	width: 40%;
+	height: 80%;
+	border: none;
+	background-color: transparent;
+	text-align: right;
+	font-size: 4rem;
+	color: #fff;
+	outline: none;
+}
