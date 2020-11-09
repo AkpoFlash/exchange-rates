@@ -1,4 +1,4 @@
-import { Currency } from './currency';
+import { Currency } from '../enums/currency';
 
 export type AccountEntity = {
 	currency: Currency;
