@@ -1,4 +1,8 @@
-For access to openexchange API you should create .env file with your API key. This key should assign to REACT_APP_OPEN_EXCHANGE_API_KEY variable.
+# Requisites
+
+__For access to openexchange API you should create .env file with your API key. This key should assign to REACT_APP_OPEN_EXCHANGE_API_KEY variable.__
+
+---
 
 # Getting Started with Create React App
 
