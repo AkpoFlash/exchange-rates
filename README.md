@@ -1,3 +1,5 @@
+For access to openexchange API you should create .env file with your API key. This key should assign to REACT_APP_OPEN_EXCHANGE_API_KEY variable.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
